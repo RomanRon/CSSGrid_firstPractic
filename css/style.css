@@ -1,0 +1,56 @@
+body {
+	border-color: #f0f0f0;
+	color: #fff;
+}
+h3 {
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+.wrapper {
+	width: 90%;
+	max-width: 940px;
+	margin: 20px auto;
+	border-color: #fff;
+}
+.home {
+	display: grid;
+	grid-gap: 2px;
+	grid-auto-rows: minmax(150px, auto);
+}
+.home>* {
+	padding: 8px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #0f0f0f;
+}
+.feature {
+	background: #0f0f0f url(../img/nature.jpg);
+	background-position: center top;
+}
+.photos {
+	background: #0f0f0f url(../img/nature.jpg);
+	background-position: right top;
+}
+.news {
+	background: #0f0f0f url(../img/nature.jpg);
+	background-position: right bottom;
+}
+.special {
+	background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8)), url(../img/windy.jpg);
+	background-position: bottom center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.special,
+.amazing
